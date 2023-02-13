@@ -1,0 +1,54 @@
+{
+    "name": "Man",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "1d48f943-5f58-498c-9073-d7719b8f7a71",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "c70dd6d6-2f10-4e12-a57e-3559f7d9ed86",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pickup",
+                    "type": "Button",
+                    "id": "71930645-aac4-46d9-958f-2b2c6caabeed",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "67d1b89b-82e3-40d5-91c6-3baf5d65014d",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c746e5e4-b233-413f-8ffe-ec408e28864e",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pickup",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
