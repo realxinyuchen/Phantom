@@ -22,7 +22,7 @@ public class SwitchInput : MonoBehaviour
     {
         i = transSpeed;
         startValue = transSpeed;
-        material.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+        material.color = new Color(0.6f, 0.6f, 0.6f, 1.0f);
     }
     // Start is called before the first frame update
     void Start()
@@ -39,7 +39,7 @@ public class SwitchInput : MonoBehaviour
         {
             isSwitch = true;
             j++;
-            Debug.Log(j);
+            //Debug.Log(j);
         }
     }
 
@@ -65,13 +65,13 @@ public class SwitchInput : MonoBehaviour
             if (transSpeed > 0)
             {
                 transSpeed--;
-                material.color = new Color(1.0f, 1.0f, 1.0f, Mathf.Lerp(0, 1, transSpeed / i));
+                material.color = new Color(0.6f, 0.6f, 0.6f, Mathf.Lerp(0, 1, transSpeed / i));
             }
             else
             {
                 SwitchRoom();
                 isSwitch = !isSwitch; ;
-                Debug.Log(isSwitch);
+                //Debug.Log(isSwitch);
             }
             currentTime = 0f;
         }
@@ -90,6 +90,6 @@ public class SwitchInput : MonoBehaviour
         realityRoom.SetActive(b);
         nightmareRoom.SetActive(!b);
         b = !b;
-        material.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+        material.color = new Color(0.6f, 0.6f, 0.6f, 1.0f);
     }
 }
