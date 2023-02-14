@@ -33,7 +33,7 @@ public partial class @Man : IInputActionCollection2, IDisposable
                     ""id"": ""c70dd6d6-2f10-4e12-a57e-3559f7d9ed86"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
-                    ""interactions"": ""Hold"",
+                    ""interactions"": """",
                     ""initialStateCheck"": true
                 },
                 {
